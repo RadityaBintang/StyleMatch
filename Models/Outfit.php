@@ -40,4 +40,14 @@ class Outfit {
         
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+    public function chooseOutfit() {
+    // Ambil data outfit dari model (opsional)
+    $tops = $this->outfitModel->getTops();
+    $bottoms = $this->outfitModel->getBottoms();
+
+    // Tampilkan view
+    include 'views/outfit/choose.php';
+}
+
 }

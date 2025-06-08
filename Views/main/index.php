@@ -88,44 +88,61 @@
         <h2 class="text-lg font-semibold mb-4 text-gray-800">Choose Your Style!</h2>
 
         <div class="outfit-scroll-container mb-8">
-            <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://styleyouroccasion.com/wp-content/uploads/2023/05/Casual-Chic-Style-2.jpg'); width: 110px;">
-                <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+<a href="index.php?c=Outfit&m=select&style=Casual">
 
-                    <span class="text-white font-medium text-sm">Chic</span>
-                </div>
-            </div>
-
-            <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://40plusstyle.com/wp-content/uploads/2019/12/outfit4.jpg'); width: 110px;">
-                <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
-                    <span class="text-white font-medium text-sm">Casual</span>
-                </div>
-            </div>
-
-            <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://40plusstyle.com/wp-content/uploads/2019/12/outfitidea1.jpg'); width: 110px;">
-                <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
-                    <span class="text-white font-medium text-sm">College</span>
-                </div>
-            </div>
-
-            <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://3.bp.blogspot.com/-dWWn0m3Lcd0/Vtmd0mQtLWI/AAAAAAAAqwQ/nZhhtgq9nBo/s1600/4_.jpg'); width: 110px;">
-                <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
-                    <span class="text-white font-medium text-sm">Street Wear</span>
-                </div>
-            </div>
-
-            <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://midlifeglobetrotter.com/wp-content/uploads/2023/04/Safari-Capsule-Wardrobe.jpg'); width: 110px;">
-                <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
-                    <span class="text-white font-medium text-sm">Gym Wear</span>
-                </div>
-            </div>
-
-            <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://i.pinimg.com/originals/7d/ca/f7/7dcaf760b232e86febb71c2d8c732d2b.jpg'); width: 110px;">
-                <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
-                    <span class="text-white font-medium text-sm">Prep</span>
-                </div>
+        <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://styleyouroccasion.com/wp-content/uploads/2023/05/Casual-Chic-Style-2.jpg'); width: 110px;">
+            <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+                <span class="text-white font-medium text-sm">Chic</span>
             </div>
         </div>
-    </div>
+    </a>
+
+<a href="index.php?c=Outfit&m=select&style=Casual">
+
+        <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://40plusstyle.com/wp-content/uploads/2019/12/outfit4.jpg'); width: 110px;">
+            <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+                <span class="text-white font-medium text-sm">Casual</span>
+            </div>
+        </div>
+    </a>
+
+<a href="index.php?c=Outfit&m=select&style=Casual">
+
+        <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://40plusstyle.com/wp-content/uploads/2019/12/outfitidea1.jpg'); width: 110px;">
+            <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+                <span class="text-white font-medium text-sm">College</span>
+            </div>
+        </div>
+    </a>
+
+<a href="index.php?c=Outfit&m=select&style=Casual">
+
+        <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://3.bp.blogspot.com/-dWWn0m3Lcd0/Vtmd0mQtLWI/AAAAAAAAqwQ/nZhhtgq9nBo/s1600/4_.jpg'); width: 110px;">
+            <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+                <span class="text-white font-medium text-sm">Street Wear</span>
+            </div>
+        </div>
+    </a>
+
+   <a href="index.php?c=Outfit&m=select&style=Casual">
+
+        <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://midlifeglobetrotter.com/wp-content/uploads/2023/04/Safari-Capsule-Wardrobe.jpg'); width: 110px;">
+            <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+                <span class="text-white font-medium text-sm">Gym Wear</span>
+            </div>
+        </div>
+    </a>
+
+<a href="index.php?c=Outfit&m=select&style=Casual">
+
+        <div class="outfit-box rounded-lg overflow-hidden flex-shrink-0" style="background-image: url('https://i.pinimg.com/originals/7d/ca/f7/7dcaf760b232e86febb71c2d8c732d2b.jpg'); width: 110px;">
+            <div class="bg-black bg-opacity-40 h-full flex items-end p-2">
+                <span class="text-white font-medium text-sm">Prep</span>
+            </div>
+        </div>
+    </a>
+</div>
+
 
     <!-- Bottom Fixed Buttons -->
     <div class="absolute bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-200">

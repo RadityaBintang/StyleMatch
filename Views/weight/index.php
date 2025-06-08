@@ -30,16 +30,13 @@
 
 <div class="container bg-white w-[480px] h-[936px] shadow-md rounded-lg overflow-hidden relative">
 
-    
     <div class="border-b border-gray-200 p-6 relative">
         <a href="index.php?action=main" class="absolute left-6 top-1/2 transform -translate-y-1/2 text-xl">
             ←
         </a>
-        
     </div>
-    
-    
-    <h1 class="text-2xl font-bold text-center mt-8 ">What's for You?</h1>
+
+    <h1 class="text-2xl font-bold text-center mt-8">What's for You?</h1>
     <div class="p-6 mt-1 pt-4 flex flex-col justify-center h-full">
         <?php if (isset($error)): ?>
             <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4">
@@ -47,9 +44,8 @@
             </div>
         <?php endif; ?>
 
-        
-        
-        <form action="index.php?action=get_recommendations" method="POST" class="flex flex-col justify-between h-[600px]">
+        <form action="index.php?c=Weight&m=submitWeight" method="POST" class="flex flex-col justify-between h-[600px]">
+
             <div>
                 <!-- Weight -->
                 <div class="space-y-2">
@@ -70,7 +66,7 @@
                     </div>
                 </div>
 
-
+                <!-- Height -->
                 <div class="space-y-2 mt-12">
                     <label class="block text-base font-medium text-gray-700">Height (cm)</label>
                     <div class="relative">
@@ -89,12 +85,11 @@
                 </div>
             </div>
 
-            
-<button 
-    type="submit" 
-    class="w-full py-4 px-5 bg-black text-white rounded-lg font-medium hover:bg-gray-800 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 mt-10">
-    Find Recommendations
-</button>
+            <button 
+                type="submit" 
+                class="w-full py-4 px-5 bg-black text-white rounded-lg font-medium hover:bg-gray-800 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 mt-10">
+                Find Recommendations
+            </button>
 
         </form>
     </div>
